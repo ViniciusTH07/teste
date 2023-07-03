@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'poppins', sans-serif;
+    max-width: 1280px;
+    background-color: #dfdfdfdf;
+    color: #333333;
+}
+
+header{
+    background-color: #333333;
+    padding-top: 2rem;
+    position: fixed;
+    width: 100%;
+    height: 0px;
+}
+
+.titulo-alunos{
+    text-align: center;
+    padding: 15px;
+    color: #ffff;
+    background-color: #33333363;
+    border-radius: 20px;
+    margin: 25px;
+}
+
+main .listagem-aluno{
+    width: 50%;
+    text-align: center;
+    border-radius: 15px 15px 15px 15px;
+    border: solid rgba(245, 245, 245, 1);
+    margin: 0 auto;
+    padding-top: 30px;
+    padding: 3rem;
+    background: linear-gradient(to bottom, #a19a9a, #f5f5f5);
+    list-style-type: none;
+
+}
+
+main .informaca{
+    overflow-y: scroll;
+}
+
+main .aluno{
+    border-radius: 100%;
+    width: 10rem;
+    height: 2.5%;
+}
+
+main .descricao{
+    text-align: justify;
+    max-height: 80px;
+    overflow-y: scroll;
+    font-size: 14px;
+    padding-right: 10px;
+}
+
+.site{
+    width: 50px;
+    padding: 15px;
+    transform: 0.2s ease-in-out;
+
+}
+.site:hover{
+
+    transform: scale(1.10);
+    cursor: pointer;
+    
+
+}
